@@ -7,6 +7,8 @@ import { GoogleGeminiEffectDemo } from "@/components/Gemini";
 import { ThreeDCardDemo } from "@/components/card3d";
 import { GlobeDemo } from "@/components/globe3d";
 import { CanvasRevealEffectDemo } from "@/components/canvasr";
+import { HeroHighlightDemo } from "@/components/heroH";
+import { VortexDemo } from "@/components/vortex";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +31,8 @@ export default function RootLayout({
         {children}
         {/* <ThreeDCardDemo /> */}
         <CanvasRevealEffectDemo />
+        <HeroHighlightDemo />
+        <VortexDemo />
         <GlobeDemo />
       </body>
     </html>

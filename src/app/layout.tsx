@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import { Meteors } from "@/components/ui/meteors";
+import { MultiStepLoaderDemo } from "@/components/Loader";
+import { GoogleGeminiEffectDemo } from "@/components/Gemini";
+import { ThreeDCardDemo } from "@/components/card3d";
+import { GlobeDemo } from "@/components/globe3d";
+import { CanvasRevealEffectDemo } from "@/components/canvasr";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +23,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <MultiStepLoaderDemo /> */}
+        <GoogleGeminiEffectDemo />
+        <Meteors />
         {children}
+        {/* <ThreeDCardDemo /> */}
+        <CanvasRevealEffectDemo />
+        <GlobeDemo />
       </body>
     </html>
   );

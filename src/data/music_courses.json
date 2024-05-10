@@ -1,0 +1,139 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "slug": "introduction-to-programming",
+      "description": "Learn the fundamentals of programming in this introductory course.",
+      "price": 39.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "intro-to-programming.jpg",
+      "category": "Development"
+    },
+    {
+      "id": 2,
+      "title": "Data Analysis with Python",
+      "slug": "data-analysis-with-python",
+      "description": "Master data analysis skills using Python libraries like pandas and NumPy.",
+      "price": 49.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "data-analysis-python.jpg",
+      "category": "Data Science",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "title": "Web Development with JavaScript",
+      "slug": "web-development-with-javascript",
+      "description": "Build interactive web applications with JavaScript and popular frameworks.",
+      "price": 59.99,
+      "instructor": "Michael Jones",
+      "isFeatured": true,
+      "image": "web-dev-javascript.jpg",
+      "category": "Development",
+      "duration": "8 weeks"
+    },
+    {
+      "id": 4,
+      "title": "Machine Learning Crash Course",
+      "slug": "machine-learning-crash-course",
+      "description": "Get started with machine learning concepts and algorithms.",
+      "price": 79.99,
+      "instructor": "David Lee",
+      "isFeatured": false,
+      "image": "machine-learning.jpg",
+      "category": "Data Science",
+      "level": "Advanced"
+    },
+    {
+      "id": 5,
+      "title": "The Art of Negotiation",
+      "slug": "the-art-of-negotiation",
+      "description": "Develop effective negotiation skills to achieve win-win outcomes.",
+      "price": 29.99,
+      "instructor": "Sarah Miller",
+      "isFeatured": true,
+      "image": "negotiation.jpg",
+      "category": "Business"
+    },
+    {
+      "id": 6,
+      "title": "Creative Writing for Beginners",
+      "slug": "creative-writing-for-beginners",
+      "description": "Explore your creativity and learn the basics of storytelling.",
+      "price": 19.99,
+      "instructor": "Emily Brown",
+      "isFeatured": false,
+      "image": "creative-writing.jpg",
+      "category": "Arts & Humanities"
+    },
+    {
+      "id": 7,
+      "title": "Public Speaking: Master the Stage",
+      "slug": "public-speaking-master-the-stage",
+      "description": "Conquer your fear and deliver impactful presentations.",
+      "price": 44.99,
+      "instructor": "William Johnson",
+      "isFeatured": false,
+      "image": "public-speaking.jpg",
+      "category": "Communication Skills"
+    },
+    {
+      "id": 8,
+      "title": "SEO Foundations for Beginners",
+      "slug": "seo-foundations-for-beginners",
+      "description": "Optimize your website for search engines and attract organic traffic.",
+      "price": 24.99,
+      "instructor": "Ashley Garcia",
+      "isFeatured": true,
+      "image": "seo-foundations.jpg",
+      "category": "Marketing"
+    },
+    {
+      "id": 9,
+      "title": "The Power of Personal Branding",
+      "slug": "the-power-of-personal-branding",
+      "description": "Build a strong personal brand to stand out in your career.",
+      "price": 34.99,
+      "instructor": "Daniel Walker",
+      "isFeatured": false,
+      "image": "personal-branding.jpg",
+      "category": "Career Development"
+    },
+    {
+      "id": 10,
+      "title": "Agile Project Management Essentials",
+      "slug": "agile-project-management-essentials",
+      "description": "Learn agile methodologies for effective project planning and execution.",
+      "price": 64.99,
+      "instructor": "Elizabeth Moore",
+      "isFeatured": true,
+      "image": "agile-project-management.jpg",
+      "category": "Project Management"
+    },
+    {
+      "id": 11,
+      "title": "Introduction to Photography",
+      "slug": "introduction-to-photography",
+      "description": "Master the basics of photography and capture stunning images.",
+      "price": 19.99,
+      "instructor": "Christopher Lee",
+      "isFeatured": false,
+      "image": "photography.jpg",
+      "category": "Arts & Humanities"
+    },
+    {
+      "id": 12,
+      "title": "The Complete Guide to Investing",
+      "slug": "the-complete-guide-to-investing",
+      "description": "Learn essential investment strategies to grow your wealth.",
+      "price": 89.99,
+      "instructor": "Catherine Robinson",
+      "isFeatured": true,
+      "image": "investing.jpg",
+      "category": "Finance"
+    } 
+  ]
+}
